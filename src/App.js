@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import logo from './images/spoop-logo1.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1>Spoop</h1> */}
+
+      <div class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src={logo} style={{width:130}} alt="Spoop logo" />
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
